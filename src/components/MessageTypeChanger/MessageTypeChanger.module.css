@@ -1,0 +1,47 @@
+.messageTypeChanger { 
+}
+
+.content { 
+    width: 50%; 
+    background-color: var(--discord-black); 
+
+    margin-top: 1em; 
+
+    /*Center the thing on X*/
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.header { 
+    display: flex; 
+    padding: 1em; 
+}
+
+.title { 
+    flex: 0 0 50%; 
+    font-size: 2em; 
+}
+
+.selector { 
+    flex: 0 0 50%; 
+    text-align: right;
+    background-color: var(--discord-dark);
+    border: none;
+    color: white; 
+}
+
+.body { 
+    padding: 1em; 
+}
+
+.description { 
+    padding: 1em; 
+}
+
+@media only screen and (max-width: 1000px) {
+    .content { 
+        width: 90%; 
+    }
+    
+}

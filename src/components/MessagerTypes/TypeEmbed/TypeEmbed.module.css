@@ -1,0 +1,75 @@
+.embed > *, .fields > * { 
+    margin-bottom: 1em;
+}
+
+.inputField { 
+    width: 100%;
+    background-color: var(--discord-dark);
+    border: none; 
+    padding: 1em; 
+    box-sizing: border-box;
+    color: white; 
+}
+
+.textArea { 
+    width: 100%;
+    height: 100px;
+    resize: none;
+    background-color: var(--discord-dark); 
+    color: var(--discord-white); 
+    padding: 1em;
+    box-sizing: border-box;
+    border: none; 
+}
+
+
+.fieldsHeader { 
+    display: flex; 
+    margin-bottom: 0.5em; 
+}
+
+.fieldsHeader > * { 
+    flex: 0 0 50%; 
+}
+
+.fieldsButtons { 
+    text-align: right;
+}
+
+.button { 
+    color: var(--discord-blue);
+    background-color: var(--discord-black);
+    border-color: var(--discord-blue);
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: none;
+    padding: 0.5em 1em 0.5em 1em;
+    transition: background-color 0.25s; 
+}
+
+.button:hover { 
+    background-color: var(--discord-dark);
+}
+
+
+
+.field { 
+    display: flex; 
+    box-sizing: border-box;
+}
+
+.field .key { 
+    flex: 1 1 0; 
+}
+
+.field .value { 
+    flex: 1 0 0; 
+}
+
+.field .key { 
+    margin-right: 1em;
+}
+
+.field .value, .field .key { 
+    
+}

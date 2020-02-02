@@ -1,0 +1,10 @@
+.textArea { 
+    width: 100%;
+    height: 100px;
+    resize: none;
+    background-color: var(--discord-dark); 
+    color: var(--discord-white); 
+    padding: 1em;
+    box-sizing: border-box;
+    border: none; 
+}

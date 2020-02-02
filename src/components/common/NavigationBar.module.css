@@ -1,0 +1,7 @@
+.navigationBar { 
+    background-color: var(--discord-blue);
+    color: var(--discord-black);
+    font-size: 2em;
+    font-weight: 900;
+    padding: 0.5em; 
+}
